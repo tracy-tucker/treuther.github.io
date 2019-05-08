@@ -1,11 +1,11 @@
 # Site settings
 author: Tracy Reuther
-title: 
+title: The Coder Gazette
 header-img: img/home-bg.png
 email: tracyreuther@gmail.com
 copyright_name: Tracy Reuther
 description: > # this means to ignore newlines until "baseurl:"
-  
+  A Journey into the Ever-Changing World of Programming
 baseurl: "" # the subpath of your site, e.g. /blog
 twitter_username: 
 github_username:  treuther
