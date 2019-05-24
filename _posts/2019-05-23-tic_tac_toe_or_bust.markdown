@@ -1,7 +1,7 @@
 ---
 layout: post
 title:      "TIC TAC TOE or BUST!"
-date:       2019-05-24 00:48:39 +0000
+date:       2019-05-23 20:48:40 -0400
 permalink:  tic_tac_toe_or_bust
 ---
 
