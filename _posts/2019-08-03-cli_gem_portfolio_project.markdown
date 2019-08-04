@@ -81,13 +81,13 @@ Colorize is a neat string class extension that will add color to the command lin
 ## The CLI Environment
 ![](https://res.cloudinary.com/tracyr/image/upload/v1564862347/cli-screenshot_nw3tkh.jpg)
 
-**BEFORE GOING ANY FURTHER** I needed to do the following - I needed to assign a class to the file **AND** associate (or use namespacing) the newly created class with the project gem.
+**BEFORE GOING ANY FURTHER** I needed to do the following - assign a class to the file **AND** associate (or namespace) the newly created class with the project gem.
 
-This basically tells the class that it belongs to the project gem, and we do this because there are many gems that can be associated with one project and we want **THIS** class to know which gem it belongs to.
+This basically tells the class that it belongs to the project gem, and we do this because there are many gems that can be associated with one project and we want **THIS** class to know which gem it belongs to. This is a way to keep related objects together.
 ```
 class CoffeeSale::CLI
 ```
-And I started every \rb file I created and used namespacing for the class setup.
+Henceforth, every .rb file I created, I used namespacing for the class setup.
 
 At first, it was difficult for me to wrap my head around the idea of creating a "fake" CLI environment instead of just going *straight for the scrape*. But taking note of others starting in the CLI file made me decide to follow suit - **and it was an excellent idea.** After digging in, it made total sense to do this first.
 
@@ -98,7 +98,7 @@ I broke this down in baby-steps:
 * Get their next answer (continue or no?)
 * Or say goodbye
 
-While building the draft of the cli.rb, I did have to put in some "fake" data in the scraper.rb in order  to test the application and see if my methods were working properly.
+While building the draft of the cli.rb, I did have to put in some "fake" data in the scraper.rb in order to test the application and see if my methods were working properly.
 
 After I felt pretty solid on this, I moved to the coffee.rb file.
 ## Coffee.rb
@@ -126,11 +126,11 @@ Last, but not least, it was time to tackle the scraper. I already accomplished t
 ```
 CoffeeSale::Coffee.new(name, orig_price, sale_price)
 ```
-[[And, of course, all the while I used the pry gem to test my code along the way. I needed to make sure I was creating a collection of objects and relationships with the ability to communicate with one another.
+And, of course, all the while I used the pry to test my code along the way. I needed to make sure I was creating a collection of objects and relationships with the ability to communicate with one another. This process did have me go back to the cli.rb and coffee.rb and remove any code that referred to fake data and replace it with the appropriate Scraper class name and code structure to grab **real** data from the scraped CSS selectors.
 
 ## Summary
 
-Overall, this project was pretty challenging for me - I'm not going to lie. And I think it's because it was taking me away from the lab environment and away from an rspec that would give me "clues" as to what to code next. I had to think for myself and on my own. I honestly wanted to ellaporate a lot more on this project by adding more to the description section. But that would have involved me going much deeper in my code development and I honestly couldn't handle pulling out the remaining strans of my hair :-)
+Overall, this project was pretty challenging for me - I'm not going to lie. And I think it's because it was taking me away from the lab environment and away from an rspec that would give me "clues" as to what to code next. I had to think for myself and on my own. I honestly wanted to ellaporate a lot further by adding more to the description section. But that would have involved me going much deeper in my code development and I honestly couldn't handle pulling out the remaining strans of my hair :-)
 I know some would say that I'm cutting myself too short on this project. That I **should** have went further with it... and honestly I probably should have. I'm hoping to have more time in the near future utilizing everything I learned in Procedural Ruby and OO Ruby.
 
 ## The Video
