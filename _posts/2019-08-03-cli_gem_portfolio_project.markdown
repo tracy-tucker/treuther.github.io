@@ -76,7 +76,7 @@ In order for each file to communicate with one another, I needed to **require** 
 
 Nokogiri is a parser that parses and searches (or scrapes) XML/HTML using libraries. It allows you to search documents using XPATH and CSS selectors to obtain desired information.
 Open_URI is a wrapper that makes it possible to open http or https in your application as if it were a file, which is very convenient.
-Colorize is a neat string class extension that will add color to the command line output, which creates a more readable for the user (just my opinion).
+Colorize is a neat string class extension that will add color to the command line output, which creates a more readable experience for the user (just my opinion).
 
 ## The CLI Environment
 ![](https://res.cloudinary.com/tracyr/image/upload/v1564862347/cli-screenshot_nw3tkh.jpg)
