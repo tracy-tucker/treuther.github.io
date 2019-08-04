@@ -73,9 +73,10 @@ require 'open-uri'
 require 'colorize'
 ```
 In order for each file to communicate with one another, I needed to **require** all created files. I also needed to setup `binding.pry` in order to test the working code in the terminal. I also established `nokogiri`, `open-uri` and `colorize`. 
-Nokogiri is an installed gem that creates ability for you the developer to "scrape" a website using CSS selectors and other avenues for obtaining information off of the desired site.
-Open_URI allows for the gateway to open an external site for scraping.
-Colorize is a neat gem that will add color to the application in the user's terminal, which creates a more readable output for the user (just my opinion).
+
+Nokogiri is a parser that parses and searches (or scrapes) XML/HTML using libraries. It allows you to search documents using XPATH and CSS selectors to obtain desired information.
+Open_URI is a wrapper that makes it possible to open http or https in your application as if it were a file, which is very convenient.
+Colorize is a neat string class extension that will add color to the command line output, which creates a more readable readable for the user (just my opinion).
 
 ## The CLI Environment
 ![](https://res.cloudinary.com/tracyr/image/upload/v1564862347/cli-screenshot_nw3tkh.jpg)
