@@ -137,6 +137,8 @@ I know some would say that I'm cutting myself too short on this project. That I 
 
 Enjoy my "techy" explanation video. I honestly did the best I could explaining the project in the video. I'm sure I'll get better in time and have a stronger presentation in the next one!
 
-**[YOUTUBE VIDEO GOES HERE]**
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/fe-dBuuMFbE" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
 
 
