@@ -1,7 +1,7 @@
 ---
 layout: post
-title:      "COME BACK TO THE TITLE"
-date:       2019-10-08 22:44:03 +0000
+title:      "Sinatra - In Relation to Bugs"
+date:       2019-10-08 18:44:04 -0400
 permalink:  come_back_to_the_title
 ---
 
