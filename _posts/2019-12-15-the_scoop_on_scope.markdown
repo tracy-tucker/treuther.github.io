@@ -1,7 +1,7 @@
 ---
 layout: post
 title:      "The Scoop on Scope"
-date:       2019-12-15 16:13:37 +0000
+date:       2019-12-15 11:13:38 -0500
 permalink:  the_scoop_on_scope
 ---
 
