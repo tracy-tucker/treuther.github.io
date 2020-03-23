@@ -161,7 +161,7 @@ There is so much more that can be written to explain each component used to buil
 ## Video
 I do have a video that gives a brief demonstration of the demo project in action:
 
-`video goes here`
+<iframe width="560" height="315" src="https://www.youtube.com/embed/HzdPbQ9Yb00" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 There is plenty of room to add more to this project, which I do plan to do on my own.
 
