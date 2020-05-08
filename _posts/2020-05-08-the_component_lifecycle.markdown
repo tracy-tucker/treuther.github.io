@@ -1,7 +1,7 @@
 ---
 layout: post
 title:      "The Component Lifecycle"
-date:       2020-05-08 18:06:20 +0000
+date:       2020-05-08 14:06:21 -0400
 permalink:  the_component_lifecycle
 ---
 
