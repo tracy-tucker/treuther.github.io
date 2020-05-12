@@ -235,7 +235,9 @@ var p = new Person();
 
 ### So, why not use arrow functions in lifecycle methods???
 
-Lifecycle methods written using arrow functions will not exist on the prototype chain of whatever JavaScript class you've created. The prototype chain ends when it reaches null. Lifecycle methods are already implicitly bound to the class through props and state. Plus, every time your function performs an => operation, it has to create a new function object. This prevents the browser from resuing the same function when rendering multiple copies of the same element, which makes optimization by the JavaScript engine hard to do.
+Lifecycle methods written using arrow functions will not exist on the prototype chain of whatever JavaScript class you've created. The prototype chain ends when it reaches null. Lifecycle methods are already implicitly bound to the class through props and state, and there's no need to bind because you're not passing the lifecycle method to another component.
+
+Plus, every time your function performs an => operation, it has to create a new function object. This prevents the browser from reusing the same function when rendering multiple copies of the same element, which makes optimization by the JavaScript engine hard to do.
 
 ## What Are Hooks?
 
